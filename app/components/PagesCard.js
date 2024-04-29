@@ -1,3 +1,5 @@
+'use client'
+
 import '../styles/PagesCard.css';
 import pages from '../data/data.json'
 
