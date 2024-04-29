@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 6rem;
+}
+
+.card {
+    width: 370px;
+    height: 326px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 6px;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 8px 15px 0px #1414141F,
+        0px 0px 4px 0px #1414141A;
+}
+
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.item {
+    width: 370px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 18.2px;
+}
+
+.form-title {
+    width: 370px;
+    height: 42px;
+    display: flex;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    padding: 8px 15px 8px 22px;  
+}
+
+.line {
+    width: 340px;
+    height: 0px;
+    border-top: 0.7px solid #CDCDCD;
+}
+
+.card-list-item {
+    width: 370px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+    top: -1px;
+    left: -1px;
+    padding: 8px 15px 8px 22px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.checkbox {
+    width: 23px;
+    height: 23px;
+    border-radius: 6px;
+    border: 1px solid #CDCDCD;
+}
+
+.checkbox[type="checkbox"] {
+    opacity: 0.6;
+}
+
+
+.submitBtn {
+    margin-top: 20px;
+    width: 340px;
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    background: #FFCE22;
+    border: none;
+    cursor: pointer;
+}
